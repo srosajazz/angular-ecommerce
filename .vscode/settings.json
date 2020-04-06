@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "ecommerce",
+            "dialect": "MySQL",
+            "name": "ecommerce-local",
+            "password": "Br@zil2020",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}

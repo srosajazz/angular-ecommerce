@@ -4,7 +4,7 @@
   "description": "Brazilian Store",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon "
+    "start": "nodemon server.js"
   },
   "keywords": [
     "nodeJS"
@@ -12,7 +12,13 @@
   "author": "Sergio Rosa",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "prettier": "^2.0.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.2"
   }
 }
